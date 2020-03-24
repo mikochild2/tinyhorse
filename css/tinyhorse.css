@@ -1,0 +1,200 @@
+@import url("https://use.typekit.net/ine3ows.css");
+
+/*.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #CE6451;
+
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+*/
+/* Change navbar styling on scroll */
+/*
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+*/
+
+/* Change navbar styling on small viewports */
+/*
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+*/
+
+nav {
+    height: 88px;
+    padding: 0 40px;
+    background-color: #212326;
+}
+nav li {
+    padding: 0 13px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.4s ease-in-out,color 0.4s ease-in-out,border-color 0.4s ease-in-out;
+}
+nav li a:hover {
+    color:white;
+    border-bottom: 2px solid #ce6451;
+}
+nav img {
+    max-height: 88px;
+    width: auto;
+}
+
+/* header section css */
+.header-bg {
+    background-image: url(../img/tiny-horse-marketing-strategies.jpg);
+    background-size: 100vh;
+    background-position: bottom center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 100px;
+    height: 100vh;
+}
+
+
+
+.header-content h1{
+font-family: big-casion-fb, serif;
+font-size: 60px;
+line-height: 1.5;
+color: #fff;
+}
+
+.header-content hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid #fff
+}
+
+.header-bottom {
+    background-image: url(../img/Tiny-Horse-Agency-Gradient.jpg);
+    padding: 30px 30px;
+}
+
+.about-us {
+    background-color: #f4eae9;
+    padding-bottom: 50px !important;
+}
+
+
+.people-content div{
+    display: flex;
+    padding: 40px 30px 0px 30px;
+    border: none;
+}
+
+
+
+.people {
+    padding-bottom: 50px;
+}
+
+h6 {
+    line-height: 1.6;
+    color: ##212326;
+    text-transform: uppercase;
+    margin-bottom: 40px !important;
+}
+
+h3 {
+    font-family: big-caslon-fb, serif;
+    font-weight: 400;
+    line-height: 2 !important;
+    font-size: 25px !important;
+    margin-bottom: 20px !important;
+}
+
+h2 {
+    font-family: big-caslon-fb, serif;
+    font-weight: 400;
+    color: #212326;
+    line-height: 2 !important;
+    margin-bottom: 20px !important;
+}
+
+.people a {
+    color: #212326 !important;
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+
+.container-th {
+    padding: 50px 200px 0px 200px;
+}
+
+
+footer {
+    background-color: #212326;
+    padding: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: left;
+    font-size: 8pt;
+    padding-top: 20px;
+
+}
+
+.bottom-footer p{
+    color: #5c7c91;
+}
+
+.bottom-footer a {
+    color: #5c7c91;
+}
